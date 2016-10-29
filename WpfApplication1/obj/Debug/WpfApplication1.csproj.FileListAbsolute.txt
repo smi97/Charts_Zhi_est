@@ -15,3 +15,5 @@
 \\mac\home\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\DynamicDataDisplay.dll
 \\mac\home\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\DynamicDataDisplay.xml
 \\mac\home\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\KBCsv.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\KBCsv.xml

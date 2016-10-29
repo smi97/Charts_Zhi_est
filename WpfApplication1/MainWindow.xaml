@@ -8,16 +8,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <d3:ChartPlotter Name="plotter" Background="white" MouseWheel="plotter_MouseWheel">
-            <d3:ChartPlotter.Resources>
+        <d3:ChartPlotter Name="plotter" 
+                         Margin="0,40,0,0" 
+                         Background="OldLace" 
+                         MouseWheel="plotter_MouseWheel">
+          
+
+                <d3:ChartPlotter.Resources>
             </d3:ChartPlotter.Resources>
             <d3:ChartPlotter.HorizontalAxis>
-                <d3:HorizontalDateTimeAxis Name="dateAxis"    />
+                <d3:HorizontalDateTimeAxis Name="dateAxis" />
             </d3:ChartPlotter.HorizontalAxis>
             <d3:Header Content="{Binding PlotHeader}"/>
             <d3:VerticalAxisTitle Content="Price"/>
             <d3:HorizontalAxisTitle Content="Date"/>
+           
         </d3:ChartPlotter>
+
+
+        <Button Content="DONOTPUSH"
+		HorizontalAlignment="Left"
+		Margin="10,10,0,0"
+		VerticalAlignment="Top"
+		Width="75"
+		Click="Button_Click"/>
+
+        <Button Content="Screenshot"
+		HorizontalAlignment="Left"
+		Margin="100,10,0,0"
+		VerticalAlignment="Top"
+		Width="75"
+		Click="screenShot"/>
+        
     </Grid>
     
 </Window>
