@@ -18,3 +18,4 @@
 \\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
 \\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Release\WpfApplication1.exe
 \\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Release\WpfApplication1.pdb
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache

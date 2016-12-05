@@ -39,9 +39,8 @@ namespace WpfApplication1
         LineGraph barchart = new LineGraph(); // traded lot volume chart
         static DateTime dtmin = new DateTime();
         static DateTime dtmax = new DateTime();
-        static double ticmin = 0.0; 
+        static double ticmin = 0.0;
         static double ticmax = 0.0;
-       // static ChartPlotter plotter1 = new ChartPlotter();
 
 
 
@@ -58,17 +57,22 @@ namespace WpfApplication1
             if (load.ShowDialog() == true)
             {
                 path = load.path;
+                if (!File.Exists(path))
+                {
+                    var result = MessageBox.Show("No File");
+                    Application.Current.Shutdown();
+                }
                 splash.Show(false);
             }
             else
             {
                 Application.Current.Shutdown();
             }
-            
+
             plotter1.Background = Brushes.Transparent;
             plotter1.BorderBrush = Brushes.Transparent;
             plotter1.AxisGrid.Visibility = Visibility.Hidden;
-            
+
             ArrayList vol = new ArrayList();  // traded lot volume
             ArrayList a = getData(ref vol);
 
@@ -94,14 +98,14 @@ namespace WpfApplication1
             var axis = (DateTimeAxis)plotter.HorizontalAxis;
             double xMin = axis.ConvertToDouble(dtmin);
             double xMax = axis.ConvertToDouble(dtmax);
-            Rect visibleRect = new Rect(xMin, ticmin - ticmin / 1000 /* this is yMin */, xMax/2 - xMin /2 /* this is width */, ticmax - ticmin + ticmin / 800 /* this is YMax - YMin = height */);
-            if(path == "Ticks.csv")
+            Rect visibleRect = new Rect(xMin, ticmin - ticmin / 1000 /* this is yMin */, xMax / 2 - xMin / 2 /* this is width */, ticmax - ticmin + ticmin / 800 /* this is YMax - YMin = height */);
+            if (path == "Ticks.csv")
                 visibleRect = new Rect(xMin, ticmin + ticmin / 1000 /* this is yMin */, (xMax - xMin) / 3  /* this is width */, ticmax - ticmin * 1.2  /* this is YMax - YMin = height */);
 
             plotter.Viewport.Visible = visibleRect;
             plotter1.Viewport.Visible = visibleRect;
             plotter.Viewport.SetBinding(Viewport2D.VisibleProperty, new Binding("Visible") { Source = plotter1.Viewport, Mode = BindingMode.TwoWay });
-           
+
             /* --------------------- */
 
             splash.Close(new TimeSpan(0, 0, 3));
@@ -169,9 +173,10 @@ namespace WpfApplication1
                 }
                 return list;
             }
+
         }
 
-      
+
         private void screenShot(object sender, RoutedEventArgs e)
         {
             plotter.CreateScreenshot();
@@ -216,8 +221,5 @@ namespace WpfApplication1
         {
             BarChartBox.SetCurrentValue(CheckBox.IsCheckedProperty, true);
         }
-
-
-
     }
 }
