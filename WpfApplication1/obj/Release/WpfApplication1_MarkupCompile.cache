@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Release\
 WpfApplication1
 none
 false
-DEBUG;TRACE
+TRACE
 \\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\App.xaml
 2462529049
 

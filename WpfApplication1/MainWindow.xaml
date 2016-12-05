@@ -6,12 +6,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
-    <Grid>
+        Title="Charts" Height="600" Width="800" SizeToContent="Manual" WindowState="Maximized">
+    <Grid Cursor="Cross">
         <d3:ChartPlotter Name="plotter" 
                          Margin="0,40,0,0" 
                          Background="OldLace" 
-                         MouseWheel="plotter_MouseWheel">
+                        >
           
 
                 <d3:ChartPlotter.Resources>
@@ -24,21 +24,49 @@
             <d3:HorizontalAxisTitle Content="Date"/>
            
         </d3:ChartPlotter>
+        <d3:ChartPlotter Name="plotter1" 
+                         Margin="20,340,0,30" 
+                         Background="OldLace" 
+                        >
+            <d3:ChartPlotter.HorizontalAxis>
+                <d3:HorizontalDateTimeAxis Visibility="Hidden"/>
+            </d3:ChartPlotter.HorizontalAxis>
+            <d3:ChartPlotter.VerticalAxis>
+                <d3:VerticalAxis Visibility="Hidden"/>
+            </d3:ChartPlotter.VerticalAxis>
+        </d3:ChartPlotter>
 
-
-        <Button Content="DONOTPUSH"
+        <Button Content="ToBegin"
 		HorizontalAlignment="Left"
 		Margin="10,10,0,0"
 		VerticalAlignment="Top"
 		Width="75"
 		Click="Button_Click"/>
 
-        <Button Content="Screenshot"
+        <Button Content="ToEnd"
 		HorizontalAlignment="Left"
 		Margin="100,10,0,0"
 		VerticalAlignment="Top"
 		Width="75"
+		Click="Button_Click_1"/>
+        
+        <Button Content="Screenshot"
+		HorizontalAlignment="Left"
+		Margin="275,10,0,0"
+		VerticalAlignment="Top"
+		Width="75"
 		Click="screenShot"/>
+
+        
+
+        <CheckBox Name="BarChartBox" Content="Barchart"
+		HorizontalAlignment="Left"
+		Margin="200,14,0,0"
+		VerticalAlignment="Top"
+		Width="75"
+        Checked="CheckBox_Checked"
+        Unchecked="CheckBox_Unchecked"
+        Loaded="CheckBox_Loaded"/>
         
     </Grid>
     

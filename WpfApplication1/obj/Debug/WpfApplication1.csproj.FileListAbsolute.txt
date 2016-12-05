@@ -17,3 +17,24 @@
 \\mac\home\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\KBCsv.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\KBCsv.xml
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.exe
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.pdb
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\WpfApplication1.exe
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\WpfApplication1.pdb
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\DynamicDataDisplay.dll
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\KBCsv.dll
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\DynamicDataDisplay.xml
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\KBCsv.xml
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\App.g.cs
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.lref
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\MainWindow.baml
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\Window1.g.cs
+\\Mac\Home\Downloads\Charts_Zhi_est-master\WpfApplication1\obj\Debug\Window1.baml
